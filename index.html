@@ -1,22 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon Mini Clone Project</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div id = "MainContainer">
-        <div class = "nav_main">
-            <div class = "nav_logo">
-                <div class = "nav_logo_img">
-                    <a href="https://www.amazon.in/"><img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="Amazon Logo">
-</a>
+    <div id="MainContainer">
+        <div class="nav_main">
+            <div class="nav_logo">
+                <div class="nav_logo_img">
+                    <a href="https://www.amazon.in/" target="_blank"><img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
+                            alt="Amazon Logo">
+                    </a>
                 </div>
             </div>
+            <div class="delivery_location">
+                <a href="https://www.amazon.in/gp/delivery/ajax/address-change.html?locationType=LOCATION_INPUT&ref_=topnav_addr&old_location_type=LOCATION_INPUT&old_near_me=false&addressType=shipping&deviceType=web"
+                    class="delivery_location_link" target="_blank">
+                    <span>
+                        <img src="images/transparent-address-location-map-white-icon-symbol-7017516949747105tmb8ibsbd.png"
+                            alt="">
+                    </span>
+                    <div class="delivery_location_text">
+                        <span class="first">Delivering to your location.</span>
+                        <span class="second">Update location</span>
+
+                    </div>
+                </a>
+            </div>
+
+            <div class="search_bar">
+                <select name="" id="">
+                    <option value="">
+                        <p>All</p>
+                    </option>
+                    <option value="">Alexa</option>
+                    <option value="">Amazon Devices</option>
+                    <option value="">Appliances</option>
+                    <option value="">Arts & Crafts</option>
+                    <option value="">Automotive</option>
+                    <option value="">Baby</option>
+                    <option value="">Beauty & Personal Care</option>
+                    <option value="">Books</option>
+                    <option value="">CDs & Vinyl</option>
+                    <option value="">Clothing, Shoes & Jewelry</option>
+                    <option value="">Collectibles & Fine Art</option>
+                    <option value="">Computers & Accessories</option>
+                    <option value="">Electronics</option>
+                    <option value="">Garden & Outdoor</option>
+                    <option value="">Gift Cards</option>
+                    <option value="">Grocery & Gourmet Food</option>
+                    <option value="">Handmade</option>
+                    <option value="">Health, Household & Baby Care</option>
+                    <option value="">Home & Kitchen</option>
+                    <option value="">Industrial & Scientific</option>
+                    <option value="">Kindle Store</option>
+                    <option value="">Luggage & Travel Gear</option>
+                    <option value="">Movies & TV</option>
+                    <option value="">Musical Instruments</option>
+                    <option value="">Office Products</option>
+                </select>
+                <input type="text" class="search_input" placeholder="Search Amazon.in">
+                <button class="search_button">
+                    <img src="images/search_icon.png" alt="">
+                </button>
+
+            </div>
+
+            <div class="nav_right">
+                <div class="language_selection">
+                    <div class="language_selection_content">
+                        <a href="https://www.amazon.in/" target="_blank"><img src="images/india_logo.png" alt=""></a>
+                        <span class="language_selection_text">EN</span>
+                        <span class="language_selector"><select name="" id="">
+                                <option value=""></option>
+                            </select></span>
+                    </div>
+
+                </div>
+
+                <div class = "account_and_lists">
+                    <div class = "account_and_lists_content">
+                        <span class="first">Hello, Sign in</span>
+                        <span class = "second">Account & Lists <span class="arrow_down">▼</span></span>
+                    </div>
+                </div>
+
+                <div class = "return_and_orders">
+                    <div class="return_and_orders_content">
+                        <span class="first">Returns</span>
+                        <span class="second">& Orders</span>
+                    </div>
+                </div>
+
+                <div class="cart">
+                    <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart" target="_blank">
+                        <div class="cart_content">
+                            <span class="cart_icon">
+                                <img src="images/shopping_cart_PNG4.png" alt="">
+                            </span>
+                            <span class="cart_text">Cart</span>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
         </div>
+    </div>
 
     </div>
 </body>
+
 </html>
